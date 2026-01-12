@@ -24,27 +24,36 @@
     <ClInclude Include="src\pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\token_generator.h">
+    <ClInclude Include="include\udpnet\server\peer.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\udpnet\shared\packet.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\udpnet\server\buffer.h">
+      <Filter>Public Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\udpnet\udp_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\udp_server\peer.h">
-      <Filter>Public Headers</Filter>
+    <ClInclude Include="src\utility\helpers.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\udp_server\packet.h">
-      <Filter>Public Headers</Filter>
+    <ClInclude Include="src\utility\token_generator.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\udp_server\buffer.h">
-      <Filter>Public Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="include\udp_server.h">
+    <ClInclude Include="src\udp_server.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\udp_server.cpp">
+    <ClCompile Include="src\pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\pch.cpp">
+    <ClCompile Include="src\modules\dispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\udp_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
